@@ -1,0 +1,56 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.65), rgba(20, 20, 20, 0.93)), url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-size: cover;
+}
+
+.logo {
+    width: 40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+}
+
+#title {
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 2.5vh;
+}
+
+#subheading {
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+}
+
+button {
+    margin: 2%;
+    padding: 0.8em;
+    width: 40vw;
+    height: 10vh;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 17px;
+    border: 3px solid rgb(199, 199, 199);
+    color: rgb(24, 24, 24);
+    background: rgb(255, 255, 255);
+    transition: 0.3s;
+    font-size: 1.4em;
+}
+
+button:hover {
+    background-color: rgb(255, 64, 64);
+    border-color: rgb(221, 40, 40);
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50vw;
+}

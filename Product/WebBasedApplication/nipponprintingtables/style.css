@@ -1,0 +1,119 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.65), rgba(20, 20, 20, 0.93)), url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgb(24, 24, 24);
+    width: 40vw;
+    height: 70vh;
+    margin-top: 13vh;
+    border-radius: 20px;
+    box-shadow: 2px 1px 3px #b8b8b8;
+    border: 3px solid rgb(226, 226, 226);
+}
+
+.heading {
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin-top: 5vh;
+    height: 50%;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 15px;
+    color: #fff;
+}
+
+.nav {
+    margin-top: 0.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button, .search-button {
+    margin: 1%;
+    padding: 0.15em;
+    width: 20vw;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 17px;
+    border: 3px solid rgb(199, 199, 199);
+    color: rgb(24, 24, 24);
+    background: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+button:hover, .search-button:hover {
+    background-color: rgb(255, 64, 64);
+    border-color: rgb(221, 40, 40);
+    color: #fff;
+}
+
+#title {
+    border-bottom: 4px solid rgb(255, 64, 64);
+    line-height: 0.85;
+}
+
+@media (max-height: 780px) {
+    button {
+        padding: 0.35em;
+    }
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    color: white;
+    font-weight: 400;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.form-input {
+    width: 30%;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+.red-text {
+    color: #f00;
+    text-align: center;
+}
+
+/* --------------------------
+DATABASE VIEW STYLES
+-----------------------------*/
+
+table {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin: auto;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+table, td, tr {
+    border: 1px solid rgb(168, 168, 168);
+}
+
+.field-names {
+    background-color:rgb(24, 24, 24);
+    color: #fff;
+}
